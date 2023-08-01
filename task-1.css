@@ -1,0 +1,393 @@
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tool-bar{
+    background-color: whitesmoke;
+    width: 7%;
+    height: 100vh;
+    position: relative;
+}
+
+.same{
+    width: 50%;
+    height: 7vh;
+    position: absolute;
+}
+
+.one{
+    background-color: rgb(101, 47, 194);
+    top: 25%;
+    left: 20%;
+    border-radius: 10px;
+}
+
+.fa-solid, .fa-regular{
+    font-size: 24px;
+    color:rgb(56, 56, 103);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.fa-grip-vertical{
+    color: whitesmoke;
+    
+}
+
+.two{
+    
+    top:35%;
+    left: 20%;
+}
+
+.three{
+    top: 45%;
+    left: 20%;
+}
+
+.four{
+    
+    top:55%;
+    left: 20%;
+}
+
+.five{
+    top: 65%;
+    left: 20%;
+}
+
+.six{
+    top: 75%;
+    left: 20%;
+}
+
+.head{
+    width: 70%;
+    height:10vh;
+    background-color: whitesmoke;
+    position: relative;
+    bottom:660px ;
+    left:7%;
+}
+
+.anything{
+    width: 35%;
+    height: 5vh;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: 2%;
+}
+
+input{
+    position: absolute;
+    width: 50%;
+    height: 5vh;
+    background: transparent;
+    border: 0;
+    background-color: rgb(204, 200, 200);
+}
+
+.search-icon{
+    position: absolute;
+    left: 40%;
+    top: 10px;
+    width: 5%;
+}
+.chat{
+    width: 23%;
+    height: 100vh;
+    position: relative;
+    top: -723px;
+    left: 77%;
+    background-color: whitesmoke;
+}
+.noti{
+    position: relative;
+    width: 100%;
+    height: 10vh;
+}
+.noti img{
+    width: 15%;
+    border-radius: 50%;
+    position: absolute;
+    left:170px;
+    top: 10px;
+}
+
+.noti .fa-bell{
+    position: absolute;
+    left: 100px;
+    top: 20px ;
+}
+
+.noti .fa-angle-down{
+    position: absolute;
+    left: 230px;
+    top: 30px;
+    color: rgb(40, 40, 96);
+}
+
+.scheudle{
+    width: 100%;
+    height: 10vh;
+}
+.icon{
+    width: 30%;
+    height: 5vh;
+    position: relative;
+    left: 60%;
+    border-radius: 50px;
+    background-color: rgb(198, 207, 210);
+}
+.reg, .fa-calendar-minus{
+    color: grey;
+}
+.reg{
+    position: relative;
+    top:5px;
+    left: 20%;
+}
+
+.fa-calendar-minus{
+    position: relative;
+    top: 5px;
+    left: 35%;
+}
+.call .time, .call .invite{
+    color: rgb(93, 158, 255);
+}
+.scheudle h3, .call h3{
+    color: rgb(43, 91, 162);
+}
+.scheudle h3{
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.call{
+    width: 100%;
+    height: 10vh;
+}
+.call h3{
+    position: relative;
+    top: 15px;
+    left: 10px;
+
+}
+ .call .time{
+    position: relative;
+    left: 10px;
+    top: 10px;
+ }
+
+.call .invite{
+    position: relative;
+    bottom: 20px;
+    left: 230px;
+}
+.total{
+    width: 90%;
+    height: 10vh;
+    background-color: rgb(10, 57, 214);
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    bottom: 2px;
+}
+.image1, .image2, .image3, .image4{
+    width: 12%;
+    border-radius: 50%;
+    border: solid white 3px;
+}
+.image1{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.image2{
+    position: relative;
+    top: 15px;
+    left: -3px;
+}
+
+.image3{
+    position: relative;
+    top: 15px;
+    left: -15px;
+}
+.image4{
+    position: relative;
+    top: 15px;
+    left: -27px;
+}
+.tele p, .tele .fa-phone-volume, .tele .fa-ellipsis-vertical{
+    color: whitesmoke;
+}
+.tele p{
+    position: relative;
+    bottom: 15px;
+    left: 150px;
+}
+.tele .fa-phone-volume{
+    position: relative;
+    bottom: 35px;
+    left: 220px;
+}
+
+.tele .fa-ellipsis-vertical{
+    position: relative;
+    bottom: 35px;
+    left: 230px;
+}
+
+.messages{
+    width: 100%;
+    height: 55vh;
+}
+.messages .header{
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    top: 10px;
+    color: rgb(43, 91, 162);
+
+}
+.header h2{
+    margin-left: 30px;
+}
+.yassin, .mohamed, .omar, .ahmed{
+    width: 70%;
+    height: 10vh;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.image5, .image6, .image7, .image8{
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+    left: 5px;
+}
+.yassin h3, .yassin p, .mohamed h3 , .mohamed p, .omar h3,
+.omar p, .ahmed h3, .ahmed p{
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+    color: rgb(43, 91, 162);
+}
+
+.tasks {
+    width: 70%;
+    height:90vh;
+    background-color: gainsboro;
+    position: relative;
+    bottom:1317px ;
+    left:7%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+}
+.completed, .new, .done{
+    background-color: darkgray;
+    height: 75%;
+    border-radius: 20px;
+}
+.completed{
+    position: relative;
+    top: 5vh;
+    left: 30px;
+    
+}
+.completed div .fa-star, .new div .fa-file-lines, .done div .file{
+    color: rgb(43, 91, 162);
+    position: relative;
+    left: 20px;
+    top:20px;
+}
+.completed h3, .new h3, .done h3{
+    color: rgb(43, 91, 162);
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+.completed h2,.new h2, .done h2{
+    color: rgb(43, 91, 162);
+    position: relative;
+    top: -20px;
+    left:190px; 
+}
+
+.completed div img, .new div img, .done div img{
+    width: 50%;
+    height: 35%;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    border-radius: 10px;
+}
+.completed p, .new p, .done p{
+    position:relative;
+    bottom: 40px;
+    left: 130px;
+    ;
+}
+span{
+    color: rgb(31, 177, 31);
+}
+.new{   
+    position: relative;
+    top: 5vh;
+    left: 100px;
+}
+
+.done{
+    position: relative;
+    top: 5vh;
+    left: 170px;
+}
+
+.large{
+    background-color: darkgray;
+    height: 95%;
+    width: 350%;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    border-radius: 20px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.container div h2{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    color: rgb(43, 91, 162);
+}
+.nav a{
+    margin-left: 30px;
+    position: relative;
+    left:180px;
+    top: 20px;
+    color: rgb(43, 91, 162);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(93, 191, 233);
+    text-decoration: underline;
+}
+.large div .image9{
+    width: 95%;
+    height: 30vh;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border-radius: 20px;
+}
